@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 
+import Navbar from './navbar';
+
 let favouriteMovies = [
   "Aliens",
   "Dune",
@@ -21,6 +23,8 @@ let favouriteMovies = [
 function App() {
   return (
     <div className="App">
+
+      <Navbar />
       <header className="App-header">
         <h1>Hello World!</h1>
         <h1>Favourite movies:</h1>
